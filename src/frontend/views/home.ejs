@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/071897bdcc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <title>Özel Bismil Teknoloji Koleji</title>
+</head>
+<body>
+    <%- include("./parts/header.ejs") %>
+    <div class="container-fluid index">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h2>Özel Bismil Teknoloji Koleji</h2>
+          <hr>
+          <p>
+            No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him. No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.
+          </p>
+          <h2>BİZ SİZİ ARAYALIM!</h2>
+          <hr>
+      <p>Daha sonra sizinle iletişime geçebilmemiz için iletişim bilgilerinizi bırakabilirsiniz!</p>
+        <form action="/arariz" method="post">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            <input type="text" name="veli" class="form-control" placeholder="Veli ad soyad">  
+            </div>
+            <div class="col">
+            <input type="email" name="email" class="form-control" placeholder="Mail">  
+            </div>
+            <div class="col">
+            <input type="tel" name="tel" class="form-control" placeholder="Telefon numarası">  
+            </div>
+          </div>
+          <button type="button" class="arayalim-button index bottom" data-bs-toggle="modal" data-bs-target="#exampleModal">GÖNDER!</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header" style="border: none;">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Bot Olmadığını Doğrula!</h1>
+                  <button type="button" data-bs-dismiss="modal" style="background-color: transparent; border: none; color: #000000;"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="modal-body">
+                  CAPTCHA
+                </div>
+                <div class="modal-footer" style="border: none;">
+                  <button type="submit" class="arayalim-button" data-bs-toggle="modal" data-bs-target="#exampleModal">GÖNDER!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        </div>
+        <div class="col-lg-7">
+          <div style="border-radius: 20px;" id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div style="border-radius: 20px;" class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.ibb.co/x1BT8Vt/Ads-z.png" class="d-block w-100" alt="1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Okulumuzdan Görüntüler</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.ibb.co/dBRhk3t/Ads-z-1.png" class="d-block w-100" alt="2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Okulumuzdan Görüntüler</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.ibb.co/NmkJcbG/Ads-z-2.png" class="d-block w-100" alt="3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Okulumuzdan Görüntüler</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid index">
+      <div class="row">
+          <div class="col-lg-4">
+            <h1 class="duyuru-haberler">Duyuru & Haberler</h1>
+            <hr>
+            <p class="tarafindan">Okulumuza ait olan sitemizin yönetici ekibi tarafından hazırlanan ve paylaşılan son blog yazıları bu blog yazıları sayesinde okulumuzdaki son gelişmeleri takip edebilirsiniz</p>
+          </div>
+          <div class="col">
+            <% blog.sort((a, b) => b.date - a.date).forEach(x => { %>
+              <h5><a href="/blog/<%= x.id %>" class="link-dark"><%= x.title %></a></h5>
+              <p><%= x.description %></p>
+            <% }) %>
+            </div>
+        </div>
+    </div>
+      <%- include("./parts/footer.ejs") %>
+</body>
+</html>

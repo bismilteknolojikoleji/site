@@ -1,0 +1,236 @@
+{
+    "pass": "password",
+    "blog": [],
+    "ogretmenler": [
+        {
+            "isim": "Hedyetullah KAYA",
+            "bolum": "Türk Dili ve Edebiyatı Öğretmeni",
+            "img": "https://i.ibb.co/5ndqNNj/2fab09de-83c6-4dd4-9c9f-02746ef0446f-jpeg.png"
+        },
+        {
+            "isim": "Ceyda TAŞ",
+            "bolum": "Türk Dili ve Edebiyatı Öğretmeni",
+            "img": "https://i.ibb.co/WF14Gj8/50e6d7a7-00b2-41f1-8490-26a3fcf8144c.jpg"
+        },
+        {
+            "isim": "Mizgin ATEŞ",
+            "bolum": "Rehberlik Öğretmeni",
+            "img": "https://i.ibb.co/xfjqBh0/2fab09de-83c6-4dd4-9c9f-02746ef0446f.jpg"
+        },
+        {
+            "isim": "Serhat BAŞAK",
+            "bolum": "Biyoloji Öğretmeni",
+            "img": "https://i.ibb.co/vcCP6D9/6f62345d-a638-4dac-8b6f-9c0cd44292f7.jpg"
+        },
+        {
+            "isim": "Adnan KUTLUCA",
+            "bolum": "Enerji Mühendisi",
+            "img": "https://i.ibb.co/YZRKMXt/355bb8dc-3ced-44a0-adf2-4020722a4895.jpg"
+        },
+        {
+            "isim": "Merve BOZAN",
+            "bolum": "Rehberlik Öğretmeni",
+            "img": "https://i.ibb.co/HPcQ2PT/496aa8da-ebb8-4681-8d43-337e91afd03f.jpg"
+        },
+        {
+            "isim": "Zozan BARAN",
+            "bolum": "Rehberlik Öğretmeni",
+            "img": "https://i.ibb.co/yFRt8n4/1.png"
+        },
+        {
+            "isim": "Sinan PARA",
+            "bolum": "Coğrafya Öğretmeni",
+            "img": "https://i.ibb.co/ftqgWv7/5aa6c827-6727-4fca-9e74-d873c332cbd0.jpg"
+        },
+        {
+            "isim": "Rengin KURT",
+            "bolum": "Elektrik ve Elektronik Öğretmeni",
+            "img": "https://i.ibb.co/CnDWHH5/10490ecf-5dad-4eae-89e9-0b96fcb4a5fa.jpg"
+        },
+        {
+            "isim": "Gurbet SALİK",
+            "bolum": "Fizik Öğretmeni",
+            "img": "https://i.ibb.co/St48b25/06c0a35f-12d4-49f5-bbf4-6cd47d2eb8b1.jpg"
+        },
+        {
+            "isim": "Esat KAYA",
+            "bolum": "Beden Eğitimi Öğretmeni",
+            "img": "https://i.ibb.co/y5jSzRG/ddfa5e13-02fc-4959-b0af-c2caffa36316.jpg"
+        },
+        {
+            "isim": "Özgür ERGÜVEN",
+            "bolum": "Matematik Öğretmeni",
+            "img": "https://i.ibb.co/fDDcxQD/ef289b83-143e-4ddc-b292-9e9a02987897.jpg"
+        },
+        {
+            "isim": "Sedat KORTAK",
+            "bolum": "Coğrafya Öğretmeni",
+            "img": "https://i.ibb.co/3zLL2Rc/0ce74088-7072-40fb-ac40-11f3901d8f3f.jpg"
+        },
+        {
+            "isim": "Hamdullah YILDIRIM",
+            "bolum": "Matematik Öğretmeni",
+            "img": "https://i.ibb.co/k2ZFDjw/22c01a90-10cf-41e2-ba9c-c421af83edae.jpg"
+        },
+        {
+            "isim": "İzzettin KORTAK",
+            "bolum": "Türk Dili ve Edebiyatı Öğretmeni",
+            "img": "https://i.ibb.co/g77PXyY/23ca1d54-f727-4e39-baff-601cdce2f28f.jpg"
+        },
+        {
+            "isim": "Öznur BULGAN",
+            "bolum": "İngilizce Öğretmeni",
+            "img": "https://i.ibb.co/51CM758/bed7392c-2a03-4ee5-b027-1ecb801424f2.jpg"
+        },
+        {
+            "isim": "Mehmet Fidan",
+            "bolum": "Biyoloji Öğretmeni",
+            "img": "https://i.ibb.co/cDLSvPD/b666326c-23a2-48ce-84bb-24f770579a58.jpg"
+        },
+        {
+            "isim": "Kübra BALCI",
+            "bolum": "Tarih Öğretmeni",
+            "img": "https://i.ibb.co/jf3Dg6V/1c75a0cc-f6aa-461d-b4df-0cedd4bc9dcd.jpg"
+        },
+        {
+            "isim": "Esra AKTARLI",
+            "bolum": "Rehberlik Öğretmeni",
+            "img": "https://i.ibb.co/478qBW2/92e5597f-710c-44af-9af2-3e617ada8c51.jpg"
+        },
+        {
+            "isim": "Tuba KARAKAŞ",
+            "bolum": "Rehberlik Öğretmeni",
+            "img": "https://i.ibb.co/Ykkqr1J/427ab853-af29-4165-8667-5db63c21a7aa.jpg"
+        },
+        {
+            "isim": "Elif KAYA",
+            "bolum": "Coğrafya Öğretmeni",
+            "img": "https://i.ibb.co/Zgbh1Vq/5c795bd3-339b-4815-9d3a-911f89db3708.jpg"
+        },
+        {
+            "isim": "Caner KAPLAN",
+            "bolum": "Kimya Öğretmeni",
+            "img": "https://i.ibb.co/b7cB5VP/66b73b70-a10b-4150-9f88-c9730afb4635.jpg"
+        },
+        {
+            "isim": "Remziye KAHRAMAN",
+            "bolum": "Matematik Öğretmeni",
+            "img": "https://i.ibb.co/VjdvfW9/6806fb07-101e-428a-8319-b9cc44d98462.jpg"
+        },
+        {
+            "isim": "Jiyan DAĞ",
+            "bolum": "Tarih Öğretmeni",
+            "img": "https://i.ibb.co/XLdWjRj/a4692dc4-6f37-4be8-9806-e1ddce5d1aee.jpg"
+        },
+        {
+            "isim": "Ruken AKSOY",
+            "bolum": "Tarih Öğretmeni",
+            "img": "https://i.ibb.co/GW8Xtsd/88e719e6-660d-46c6-aba4-cded94050372.jpg"
+        },
+        {
+            "isim": "Evin YİĞİT",
+            "bolum": "Kimya Öğretmeni",
+            "img": "https://i.ibb.co/3k0NsgG/91c79298-b076-4b20-b56d-34c97f41acab.jpg"
+        },
+        {
+            "isim": "Fatma ANGAY",
+            "bolum": "İngilizce Öğretmeni",
+            "img": "https://i.ibb.co/6swtKGj/ab268a44-5a29-487b-b1f9-ebe9fc9e029d.jpg"
+        },
+        {
+            "isim": "Merve ERCAN",
+            "bolum": "Din Kültürü ve Ahlak Bilgisi Öğretmeni",
+            "img": "https://i.ibb.co/YpW5rmM/d7c92c1d-f01b-4107-a343-791af079afa2.jpg"
+        },
+        {
+            "isim": "Melek KAÇMAZ",
+            "bolum": "Beden Eğitimi Öğretmeni",
+            "img": "https://i.ibb.co/wYjjLD4/4ab2e4d3-7973-47a6-a888-7930f94e4f98.jpg"
+        },
+        {
+            "isim": "Nuray KARAMAN",
+            "bolum": "Türk Dili ve Edebiyatı Öğretmeni",
+            "img": "https://i.ibb.co/qNqrZHf/c27e1224-4e45-415d-97b1-1a5bad0778d2.jpg"
+        },
+        {
+            "isim": "Hayrullah DEMİR",
+            "bolum": "Türk Dili ve Edebiyatı Öğretmeni",
+            "img": "https://i.ibb.co/7G9qYdV/7eab560c-a274-40f3-a415-493088c1ed0e.jpg"
+        },
+        {
+            "isim": "Şeyma BURTAKUÇİN",
+            "bolum": "Resim Öğretmeni",
+            "img": "https://i.ibb.co/q9gySy9/3dae96dd-db3e-42fe-a73f-0798e8fab9d6.jpg"
+        }
+    ],
+    "bolumlerimiz": [
+        {
+            "isim": "Pano Atölyesi",
+            "category": "Elektrik ve Elektronik",
+            "img": "https://i.ibb.co/1s7tK0K/550c25f1-a7bf-48de-9615-d1d8373c0edd.jpg"
+        },
+        {
+            "isim": "Kontrol Sistemleri Atölyesi",
+            "category": "Elektrik ve Elektronik",
+            "img": "https://i.ibb.co/RH41qyv/7c1982b7-99bd-42ab-8a72-8d041a94d15f.jpg"
+        },
+        {
+            "isim": "Temel Elektrik Atölyesi",
+            "category": "Elektrik ve Elektronik",
+            "img": "https://i.ibb.co/7RPGhbb/f392eef5-bc6f-49a0-b6f9-fb8c6505002b.jpg"
+        },
+        {
+            "isim": "Enerji Sistemleri Atölyesi",
+            "category": "Yenilenebilir Enerji",
+            "img": "https://i.ibb.co/NpfM0kt/55b3c50a-819a-435c-96b8-1ecf0d1da038.jpg"
+        },
+        {
+            "isim": "Zayıf Akım Tesisleri Atölyesi",
+            "category": "Elektrik ve Elektronik",
+            "img": "https://i.ibb.co/6XH4v6Q/ba54c59c-9039-4a53-9925-33ee5431c55f.jpg"
+        },
+        {
+            "isim": "Güneş Enerjisi Atölyesi",
+            "category": "Yenilenebilir Enerji",
+            "img": "https://i.ibb.co/127SJt8/1d9fede8-1377-4f85-a132-773bc662b62f.jpg"
+        },
+        {
+            "isim": "EKAR Atölyesi",
+            "category": "Elektrik ve Elektronik",
+            "img": "https://i.ibb.co/YpgVc3y/ebd09217-f7bd-433b-b614-ab221d94ff51.jpg"
+        },
+        {
+            "isim": "M.E.E Atölye",
+            "category": "Yenilenebilir Enerji",
+            "img": "https://i.ibb.co/82GHyRN/55b3c50a-819a-435c-96b8-1ecf0d1da038.jpg"
+        }
+    ],
+    "onkayit": [],
+    "idare": [
+        {
+            "isim": "Mert GİDEN",
+            "statu": "Müdür",
+            "img": "https://i.ibb.co/m8kd3SF/244757be-0add-4f84-b19d-ee4a289bd817.jpg"
+        },
+        {
+            "isim": "Suat ATA",
+            "statu": "Müdür Yardımcısı",
+            "img": "https://i.ibb.co/Ky17sX6/93d792c8-2200-45c8-b425-71554715e2de.jpg"
+        }
+    ],
+    "vizyon": [
+        {
+            "vizyon": "<p>Toplumumuzdaki k&uuml;lt&uuml;rden ve hedeflerden yola &ccedil;ıkarak &ouml;ğretmenlerimizin rehberliği ve &ouml;ğrencilerimizin &ccedil;alışmalarıyla bilim ve teknolojinin imkanlarını kullanarak elektrik - elektronik alanında ve bilimde &uuml;lkemizi daha ileriye taşıyan okul olmak</p>\r\n"
+        }
+    ],
+    "misyon": [
+        {
+            "misyon": "<p>&Ouml;ğrencilerimize akademik bilginin yanı sıra temel insanlık beceri eğitimi veren, ahlaklı saygılı, empati kurabilen, &ouml;zg&uuml;veni y&uuml;ksek, kurumsal değerlerimizi sahiplenen, okuyan, sorgulayan, kendilerini mesleklerine adamış, teknolojik gelişmelere a&ccedil;ık bilimsel ve yaratıcı d&uuml;ş&uuml;nebilen, elektrik - elektronik alanında &uuml;st d&uuml;zey bilimsel ve teknolojik araştırma projeleri ger&ccedil;ekleştirebilen, elektrik - elektronik ve bilimsel projelere &ouml;nc&uuml;l&uuml;k eden, bilişim teknolojilerini kullanabilen bir nesil yetiştirmek</p>\r\n"
+        }
+    ],
+    "genclige-hitabe": [
+        {
+            "hitabe": "<p>&nbsp;&nbsp; Ey T&uuml;rk gen&ccedil;liği! Birinci vazifen; T&uuml;rk istiklalini, T&uuml;rk cumhuriyetini, ilelebet muhafaza ve m&uuml;dafaa etmektir.</p>\r\n\r\n<p>&nbsp; &nbsp;Mevcudiyetinin ve istikbalinin yeg&acirc;ne temeli budur. Bu temel, senin en kıymetli hazinendir. İstikbalde dahi seni bu hazineden mahrum etmek isteyecek d&acirc;hil&icirc; ve haric&icirc; bedhahların olacaktır. Bir g&uuml;n, istiklal ve cumhuriyeti m&uuml;dafaa mecburiyetine d&uuml;şersen, vazifeye atılmak i&ccedil;in i&ccedil;inde bulunacağın vaziyetin imk&acirc;n ve şeraitini d&uuml;ş&uuml;nmeyeceksin. Bu imk&acirc;n ve şerait, &ccedil;ok nam&uuml;sait bir mahiyette tezah&uuml;r edebilir. İstiklal ve cumhuriyetine kastedecek d&uuml;şmanlar, b&uuml;t&uuml;n d&uuml;nyada emsali g&ouml;r&uuml;lmemiş bir galibiyetin m&uuml;messili olabilirler. Cebren ve hile ile aziz vatanın b&uuml;t&uuml;n kaleleri zapt edilmiş, b&uuml;t&uuml;n tersanelerine girilmiş, b&uuml;t&uuml;n orduları dağıtılmış ve memleketin her k&ouml;şesi bilfiil işgal edilmiş olabilir. B&uuml;t&uuml;n bu şeraitten daha elim ve daha vahim olmak &uuml;zere, memleketin d&acirc;hilinde iktidara sahip olanlar, gaflet ve dalalet ve hatta hıyanet i&ccedil;inde bulunabilirler. Hatta bu iktidar sahipleri, şahsi menfaatlerini m&uuml;stevlilerin siyasi emelleriyle tevhit edebilirler. Millet, fakruzaruret i&ccedil;inde harap ve bitap d&uuml;şm&uuml;ş olabilir.</p>\r\n\r\n<p>&nbsp;&nbsp; Ey T&uuml;rk istikbalinin evladı! İşte, bu ahval ve şerait i&ccedil;inde dahi vazifen, T&uuml;rk istiklal ve cumhuriyetini kurtarmaktır. Muhta&ccedil; olduğun kudret, damarlarındaki asil kanda mevcuttur.</p>\r\n\r\n<p class='text-end'><strong>- BAŞ&Ouml;ĞRETMEN GAZİ MUSTAFA KEMAL ATAT&Uuml;RK</strong></p>\r\n"
+        }
+    ]
+}

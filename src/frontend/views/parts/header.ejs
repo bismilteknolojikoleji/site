@@ -1,0 +1,64 @@
+<link href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro" rel="stylesheet">
+<div class="ust">
+    <div class="container">
+                <i class="fa-solid fa-phone fa-sm"></i> <small>0555 009 62 02</small> <i class="fa-solid fa-envelope fa-sm" style="margin-left: 10px;"></i> <small>teknoloji.koleji1@gmail.com</small>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"><img width="60px" src="/img/logo.png" alt="logo"> <span class="d-none d-lg-inline">ÖZEL BİSMİL TEKNOLOJİ KOLEJİ</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-sharp fa-solid fa-bars hamburger"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">ANASAYFA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/genclige-hitabe">GENÇLİĞE HİTABE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/onkayit">ÖN KAYIT</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            OKULUMUZ
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="/bolumlerimiz">BÖLÜMLERİMİZ</a></li>
+            <li><a class="dropdown-item" href="/idare">İDARİ KADRO</a></li>
+            <li><a class="dropdown-item" href="/ogretmenlerimiz">ÖĞRETMENLERİMİZ</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/vizyonumuz-misyonumuz">VİZYONUMUZ - MİSYONUMUZ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/blog">BLOG</a>
+        </li>
+        <% if(session){ %>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ADMIN
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="/admin/ogretmenler">ÖĞRETMENLER</a></li>
+              <li><a class="dropdown-item" href="/admin/blog">BLOG YAZILARI</a></li>
+              <li><a class="dropdown-item" href="/admin/bolumlerimiz">BÖLÜMLERİMİZ</a></li>
+              <li><a class="dropdown-item" href="/admin/onkayit">ÖN KAYIT</a></li>
+              <li><a class="dropdown-item" href="/admin/idare">İDARİ KADRO</a></li>
+              <li><a class="dropdown-item" href="/admin/vizyon-misyon">VİZYONUMUZ - MİSYONUMUZ</a></li>
+              <li><a class="dropdown-item" href="/admin/genclige-hitabe">GENÇLİĞE HİTABE</a></li>
+              <li><a class="dropdown-item" href="/cikis">ÇIKIŞ</a></li>
+            </ul>
+          </li>
+        <% }else{ %>
+          <li class="nav-item">
+            <a class="nav-link active giris" href="/giris" style="color: #ffffff;">PERSONEL GİRİŞ</a>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</nav>
