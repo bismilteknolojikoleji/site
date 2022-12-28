@@ -14,11 +14,6 @@ app.use(session({
 	resave: true,
 	saveUninitialized: true
 }))
-const {verify} = require('hcaptcha');
-
-const secret = '0x7da7eeb22127F99c36F284621d8726e5045Fa34A';
-const token = '8db0faba-d6c4-4e6c-8ec8-ffc5db57b635';
-
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
@@ -44,8 +39,6 @@ app.get("/vizyonumuz-misyonumuz", (req, res) => {
 })
 
 app.post("/onkayit", (req, res) => {
-  verify(secret, token)
-  .then((data) => {
     if (data.success === true) {
       if(req.body.ogrenci && req.body.veli && req.body.iletisim1){
         db.push("onkayit", {
@@ -62,8 +55,6 @@ app.post("/onkayit", (req, res) => {
     } else {
       console.log('verification failed');
     }
-  })
-  .catch(console.error);
 })
 app.get("/giris", (req, res) => {
     if(!req.session.password){
