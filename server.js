@@ -17,7 +17,7 @@ app.use(session({
 const {verify} = require('hcaptcha');
 
 const secret = '0x7da7eeb22127F99c36F284621d8726e5045Fa34A';
-const token = 'e61c76cf-7f47-4832-9a09-bb1cf9dd3057';
+const token = '8db0faba-d6c4-4e6c-8ec8-ffc5db57b635';
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
