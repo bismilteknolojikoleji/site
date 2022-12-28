@@ -39,7 +39,6 @@ app.get("/vizyonumuz-misyonumuz", (req, res) => {
 })
 
 app.post("/onkayit", (req, res) => {
-    if (data.success === true) {
       if(req.body.ogrenci && req.body.veli && req.body.iletisim1){
         db.push("onkayit", {
             "ogrenci": req.body.ogrenci,
@@ -51,9 +50,6 @@ app.post("/onkayit", (req, res) => {
         res.redirect("/onkayit?başarılı")
     }else{
         res.redirect("/onkayit?hata")
-    }
-    } else {
-      console.log('verification failed');
     }
 })
 app.get("/giris", (req, res) => {
