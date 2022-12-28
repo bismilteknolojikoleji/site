@@ -14,6 +14,10 @@ app.use(session({
 	resave: true,
 	saveUninitialized: true
 }))
+const {verify} = require('hcaptcha');
+
+const secret = '0x7da7eeb22127F99c36F284621d8726e5045Fa34A';
+const token = 'e61c76cf-7f47-4832-9a09-bb1cf9dd3057';
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
@@ -40,7 +44,10 @@ app.get("/vizyonumuz-misyonumuz", (req, res) => {
 })
 
 app.post("/onkayit", (req, res) => {
-    if(req.body.ogrenci && req.body.veli && req.body.iletisim1){
+  verify(secret, token)
+  .then((data) => {
+    if (data.success === true) {
+      if(req.body.ogrenci && req.body.veli && req.body.iletisim1){
         db.push("onkayit", {
             "ogrenci": req.body.ogrenci,
             "veli": req.body.veli,
@@ -52,6 +59,11 @@ app.post("/onkayit", (req, res) => {
     }else{
         res.redirect("/onkayit?hata")
     }
+    } else {
+      console.log('verification failed');
+    }
+  })
+  .catch(console.error);
 })
 app.get("/giris", (req, res) => {
     if(!req.session.password){
@@ -334,6 +346,6 @@ app.use(function(req, res, next) {
     res.type('txt').send('Not found')
   });
 
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log("server aktif")
 })
